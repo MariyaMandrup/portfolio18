@@ -1,0 +1,1736 @@
+html body {
+
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h2 {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+}
+
+h3 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+
+p {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+
+}
+
+
+
+/*************MENU START**********************/
+
+.nav {
+
+
+    text-align: right;
+    height: 100px;
+    line-height: 70px;
+
+
+}
+
+.nav img {
+
+    float: left;
+    width: 50px;
+    margin: 20px 0 0 20px;
+    cursor: pointer;
+}
+
+
+.menu {
+
+    margin: 0 30px 0 0;
+    color: #333;
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+.menu a {
+
+    color: black;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+
+}
+
+a:hover {
+
+    font-weight: 400;
+}
+
+
+span {
+
+    font-weight: 400;
+
+}
+
+label {
+
+    margin: 0px 20px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+#toggle {
+
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    label {
+        width: 26px;
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-bottom: 30px
+    }
+    .menu {
+
+        text-align: center;
+        width: 100%;
+        display: none;
+
+
+    }
+
+    .menu a {
+        clear: right;
+        display: block;
+        margin: 0px;
+
+
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+/*************MENU SLUT**********************/
+
+/*
+
+#up img {
+
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+
+}
+*/
+
+/*************HOME SPLASH START**********************/
+
+#up .container img {
+
+    width: 400px;
+
+}
+
+#up .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#up .container {
+
+    margin-top: 150px;
+    justify-content: center;
+
+}
+
+
+/*************HOME SPLASH SLUT**********************/
+
+#arrow img {
+
+    width: 20px;
+    margin-top: 200px;
+}
+
+#arrow .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#arrow .container {
+
+    justify-content: center;
+}
+
+/*************semester START**********************/
+
+#semester .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+#semester .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#semester .content1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 70px;
+
+}
+
+#semester .content1 p {
+
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+
+}
+
+#semester .content2 {
+
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+
+
+}
+
+#semester .content2 p {
+
+    font-family: 'Playfair Display', serif;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 0px;
+
+}
+
+
+/*************semester SLUT**********************/
+
+#proces .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6vw;
+
+
+}
+
+
+#proces .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+
+
+#proces .content {
+
+    margin: 3vw;
+    flex-basis: 400px;
+    flex-grow: 1;
+    line-height: 1.8;
+    font-size: 1.1em;
+
+}
+
+#proces .button {
+
+    border-style: solid;
+    border-width: 0.3px;
+    color: black;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+
+}
+
+/**********ROUND START**********/
+
+#round .sectionwrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px 40px 0;
+    line-height: 1.8;
+    margin-top: 40px;
+
+}
+
+#round .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#round .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#round .content {
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.2em;
+}
+
+
+
+#round .content1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2.1;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+
+}
+
+#round .content1 img {
+    width: 360px;
+
+}
+
+#round .content2 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 30px;
+
+}
+
+#round .content2 img {
+    width: 330px;
+
+}
+
+#round .content3 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+#round .content3 img {
+    width: 250px;
+
+}
+
+
+#round h3 {
+    color: #333;
+    font-family: 'Open Sans', serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#round h2 {
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+}
+
+
+#round .button {
+
+    border-style: solid;
+    border-width: 0.3px;
+    color: black;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+
+}
+
+
+#desk .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#desk .container {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#desk .content {
+
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#desk img {
+
+    width: 500px;
+    margin: 20px;
+}
+
+
+
+/**********ROUND SLUT**********/
+
+/**********PORT START**********/
+
+#port .sectionwrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 120px 40px 0;
+    line-height: 1.8;
+    margin-top: 40px;
+
+
+}
+
+#port .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+#port .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
+#port .content1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2.1;
+
+}
+
+#port .content1 img {
+    width: 250px;
+    margin-right: 70px;
+    margin-left: 70px;
+
+
+}
+
+#port .content2 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+
+
+}
+
+#port .content2 img {
+    width: 330px;
+    margin: 20px;
+
+}
+
+#port .content3 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+#port .content3 img {
+    width: 250px;
+    margin: 20px;
+
+}
+
+
+#port h3 {
+    color: #333;
+    font-family: 'Open Sans', serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#port h2 {
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+}
+
+
+#port .button {
+
+    border-style: solid;
+    border-width: 0.3px;
+    color: black;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+
+}
+
+/**********PORT SLUT**********/
+
+/**********PORT2 START**********/
+
+#port2 .sectionwrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px 40px 0;
+    line-height: 1.8;
+    margin-top: 40px;
+
+}
+
+#port2 .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#port2 .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#port2 .content {
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.2em;
+}
+
+
+
+#port2 .content1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2.1;
+
+
+}
+
+#port2 .content1 img {
+    width: 250px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+#port2 .content2 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+#port2 .content2 img {
+    width: 250px;
+    margin: 20px;
+
+}
+
+#port2 .content3 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+#port2 .content3 img {
+    width: 250px;
+    margin: 20px;
+
+}
+
+
+#port2 h3 {
+    color: #333;
+    font-family: 'Open Sans', serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#port2 h2 {
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+}
+
+
+#port2 .button {
+
+    border-style: solid;
+    border-width: 0.3px;
+    color: black;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+
+}
+
+/**********PORT2 SLUT**********/
+
+/**********Stilartsite final start**********/
+
+#styletile .sectionwrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+#styletile img {
+
+    width: 60vw;
+
+}
+
+#ripe .sectionwrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+#ripe img {
+
+    width: 80vw;
+    margin-right: 70px
+}
+
+#pomo .sectionwrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+#pomo img {
+
+    width: 70vw;
+
+}
+
+
+#middle .sectionwrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px 40px 0;
+    line-height: 1.8;
+    margin-top: 40px;
+
+}
+
+#middle .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#middle .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#middle .content {
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.2em;
+}
+
+
+
+#middle .content1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2.1;
+
+    margin-top: 20px;
+
+}
+
+#middle .content1 img {
+    width: 380px;
+
+}
+
+#middle .content2 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px;
+
+}
+
+#middle .content2 img {
+    width: 200px;
+
+}
+
+#middle .content3 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+#middle .content3 img {
+    width: 200px;
+
+}
+
+
+#middle h3 {
+    color: #333;
+    font-family: 'Open Sans', serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+#middle h2 {
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+}
+
+
+#middle .button {
+
+    border-style: solid;
+    border-width: 0.3px;
+    color: black;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+
+}
+
+
+
+/**********Stilartsite final slut**********/
+
+/**********me start**********/
+
+#me .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#me .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7vw;
+}
+
+#me .content {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+
+
+}
+
+#me .content p {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+
+#me h2 {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+
+#me img {
+
+    width: 400px;
+    margin-left: 120px;
+
+}
+
+
+
+/**********me slut**********/
+
+/*----------cv start------------*/
+
+#cv .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cv .container {
+
+    justify-content: center;
+}
+
+#cv img {
+
+    width: 500px;
+    margin-bottom: 5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+/*----------cv slut------------*/
+
+#ux_heading .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#ux_heading .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#ux_heading .content1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 70px;
+
+}
+
+#ux_heading .content1 p {
+
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+
+}
+
+#ux_heading .content2 {
+
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+
+
+}
+
+#ux_heading .content2 p {
+
+    font-family: 'Playfair Display', serif;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+#ux .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6vw;
+
+
+}
+
+
+#ux .container {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: margin-top: 0px;
+    text-align: center;
+}
+
+
+
+#ux .content {
+
+    margin: 2vw;
+    flex-basis: 400px;
+    flex-grow: 1;
+    line-height: 1.8;
+    font-size: 1.1em;
+
+}
+
+#ux .button {
+
+    border-style: solid;
+    border-width: 0.3px;
+    color: black;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 3px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+
+}
+
+#ux h2 {
+
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+}
+
+
+#mood .sectionwrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+#mood img {
+
+    width: 60vw;
+
+}
+
+
+#style .sectionwrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+#style img {
+
+    width: 60vw;
+
+}
+
+#twopic .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#twopic .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#twopic .content {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#twopic .content img {
+
+    width: 400px;
+    margin: 20px;
+}
+
+#xd .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#xd .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#xd img {
+
+    width: 60vw;
+    ;
+    margin: 30px;
+}
+
+
+
+
+
+#threepic .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#threepic .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#threepic .content {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#threepic .content img {
+
+    width: 300px;
+    margin: 20px;
+}
+
+
+
+#onepic .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#onepic .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#onepic .content {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#onepic .content img {
+
+    width: 800px;
+    margin: 20px;
+}
+
+#verapic .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#verapic img {
+
+    width: 400px;
+    margin: 20px;
+}
+
+#drew .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#drew img {
+
+    width: 400px;
+    margin: 20px;
+}
+
+
+#video .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#video img {
+
+    width: 50vw;
+}
+
+
+
+
+
+/*----------contact------------*/
+
+#kontakt .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+#kontakt .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#kontakt h2 {
+
+    color: black;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2.7em;
+}
+
+
+#contact .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+#contact .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#contact .content {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    margin: 30px;
+
+}
+
+#contact .content p {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+#contact a {
+
+    text-decoration: none;
+}
+
+#contact h3 {
+
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+#contact .content img {
+
+    width: 20px;
+    margin: 10px;
+}
+
+
+
+/*--------contact slut---------*/
+
+#header .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vw;
+
+}
+
+#header h2 {
+
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    margin-bottom: 5vw;
+}
+
+#kooperationsparter .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5vw;
+
+
+}
+
+#kooperationsparter .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#kooperationsparter .content {
+
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+#kooperationsparter .content1 {
+
+    text-align: center;
+}
+
+#kooperationsparter img {
+
+    width: 200px;
+    margin: 20px;
+}
+
+
+
+#reference .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 3vw;
+
+}
+
+
+#reference .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 3vw;
+}
+
+
+
+#reference .content1 img {
+
+    width: 40px
+}
+
+#reference .sectionwrapper h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.7em;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+#reference .sectionwrapper h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+#reference .content {
+
+    line-height: 1.8;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    font-weight: 300;
+    font-size: 1.1em;
+    font-style: italic;
+
+
+}
+
+
+#mid_pic .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+#mid_pic .container {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+#mid_pic .content {
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    margin: 10px;
+}
+
+#mid_text .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+#mid_text .container {
+
+    /*
+    display: flex;
+    flex-wrap: wrap;
+*/
+    justify-content: center;
+    text-align: center;
+}
+
+#mid_text .content1 {
+
+
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.8;
+
+}
+
+#mid_text .content2 h2 {
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 0px;
+    line-height: 1.8;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#mid_text .content3 {
+
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #333;
+}
+
+#mid_text h4 {
+
+    font-size: 1em;
+    font-family: 'Open Sans', serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#mid_text .content4 img {
+
+    width: 30vw;
+    margin: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    #mid_text .content4 img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #horen .content img {
+        width: 300px;
+    }
+}
+
+
+
+/*--------MORTEN SAD---------*/
+
+#morten_blink_container {
+    position: absolute;
+}
+
+
+#morten_blink_sprite {
+    background-image: url(images/grafik/morten_blink_sad_cycle.svg);
+    background-size: 400% 100%;
+    width: 40vw;
+    height: 50vw;
+    position: absolute;
+    left: 30vw;
+
+}
+
+.morten_blink {
+    animation-name: morten_blink;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+}
+
+@keyframes morten_blink {
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: -400% 0;
+    }
+
+    50% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/*--------MORTEN SAD SLUT---------*/
+
+/*--------MORTEN RUM START---------*/
+
+#rum_container {
+    position: absolute;
+}
+
+
+#rum_sprite {
+    background-image: url(images/grafik/rum_sprite.svg);
+    background-size: 400% 100%;
+    width: 15vw;
+    height: 50vw;
+    position: absolute;
+    left: 30vw;
+}
+
+.morten_rum {
+    animation-name: morten_rum;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+}
+
+@keyframes morten_rum {
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: -400% 0;
+    }
+
+    50% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.morten_float {
+    animation-name: morten_float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes morten_float {
+    0% {
+        top: 50vw;
+    }
+
+    100% {
+        top: 0vw;
+    }
+}
+
+.morten_float_still {
+    top: 0vw;
+}
+
+
+#spaceimage .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#spaceimage img {
+
+    background-size: cover;
+    width: 90vw;
+}
+
+#mere .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#mere img {
+
+    background-size: cover;
+    width: 90vw;
+}
+
+#mere1 .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#mere1 img {
+
+    background-size: cover;
+    width: 90vw;
+}
+
+
+
+#mere3 .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+
+#mere3 img {
+    width: 50vw;
+    margin: 30px;
+}
+
+
+
+/*--------MORTEN RUM SLUT---------*/
+
+/*--------MORTEN GRIN START---------*/
+
+#morten_container {
+    position: absolute;
+}
+
+
+#morten_grin_cycle {
+    background-image: url(images/grafik/morten_grin_cycle.svg);
+    background-size: 400% 100%;
+    width: 40vw;
+    height: 50vw;
+    position: absolute;
+    left: -10vw;
+
+}
+
+.morten_sprite {
+    animation-name: morten_sprite;
+    animation-duration: 4s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: infinite;
+}
+
+@keyframes morten_sprite {
+    0% {
+        background-position: 0 0;
+    }
+
+    25% {
+        background-position: -400% 0;
+    }
+
+    50% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+/*--------MORTEN GRIN SLUT---------*/
+
+footer .sectionwrapper {
+
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+}
+
+footer p {
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.7em;
+}
